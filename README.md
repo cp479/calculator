@@ -1,4 +1,10 @@
 # calculator
+<h1>V1.1.2</h1>
+<ul>
+<li> Add more html and css stuff
+</li>
+</ul>
+
 <h1>V1.1</h1>
 <ul>
 <li> Add html, css, jss file
