@@ -8,6 +8,19 @@
 
 body {
     background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    /* Adding width and height breaks the layout for some reason. Leave for now.  */
+}
+
+#calculator {
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 15px;
 }
 
 #toprow {
@@ -24,5 +37,56 @@ body {
     background-color: antiquewhite;
     border-radius: 10px;
     margin: 5px;    
+    /* Add text input after jss click event listener to test */
 }
 
+
+.clear {
+    border: solid 3px black;
+    background-color: bisque;
+    color: black;
+}
+
+.clear:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+button {
+    border-radius: 3px;
+    background-color: bisque;
+    color: black;
+    width: 30px;
+    height: 30px;
+    margin: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.number, .decimal {
+    border: solid 3px blueviolet;
+}
+
+.number:hover, .decimal:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.operator {
+    border: solid 3px olivedrab;
+}
+
+.operator:hover{
+    background-color: aliceblue;
+    color: black;
+}
+
+.equal {
+    border: solid 3px orange;
+}
+
+.equal:hover {
+    background-color: aliceblue;
+    color: black;
+}
