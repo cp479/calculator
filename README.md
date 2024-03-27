@@ -1,4 +1,18 @@
 # calculator
+<h1>V1.3.2</h1>
+<ul>
+<li> Fix HTML issues related to having a space between each number (see HTML line 26)
+</li>
+<li> Add some CSS styling
+</li>
+</ul>
+
+<h1>V1.3</h1>
+<ul>
+<li> Add calculator JSS
+</li>
+</ul>
+
 <h1>V1.2</h1>
 <ul>
 <li> Add CSS styling
