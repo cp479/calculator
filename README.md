@@ -6,6 +6,7 @@
 <li> Add some CSS styling
 </li>
 </ul>
+<p>Future upgrades; add backspace button, clear the screen once the result has been calculated (insted of adding numbers onto the current displayed value), add keyboard support. </p>
 
 <h1>V1.3</h1>
 <ul>
