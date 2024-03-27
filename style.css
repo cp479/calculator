@@ -6,6 +6,15 @@
     color: aqua;
 }
 
+#subtext {
+    font-size: xx-small;
+    margin-top: 100px;
+}
+
+#subtext:hover {
+    color: chartreuse;
+}
+
 body {
     background-color: cadetblue;
     display: flex;
